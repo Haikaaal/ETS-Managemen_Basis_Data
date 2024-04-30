@@ -1,3 +1,5 @@
+-- Active: 1701150238586@@127.0.0.1@3306@ets_mbd_umkm
+
 CREATE TABLE Mahasiswa (
     mhs_id INT AUTO_INCREMENT,
     nama VARCHAR(100),
@@ -54,15 +56,15 @@ INSERT INTO Mahasiswa (nama) VALUES
 ('Joko');
 
 INSERT INTO UMKM (nama, status_ver, mhs_id) VALUES
-('Sego Ndog', 0, 1), 
+('Sego Ndog', 1, 1), 
 ('Njamoer', 0, 2), 
-('Tahu Tek Pak Ca', 0, 3), 
-('Nasi Goreng Tiki', 0, 4),
+('Tahu Tek Pak Ca', 1, 3), 
+('Nasi Goreng Tiki', 1, 4),
 ('Dapur Kita', 0, 5), 
 ('Ketoprak Sakinah', 0, 6), 
 ('Sego Sambel Kappa', 0, 7),
 ('Nasi Goreng Pak Duku', 0, 8), 
-('Mie Ghodog Genteng', 0, 9), 
+('Mie Ghodog Genteng', 1, 9), 
 ('Soto Ayam Cak Kan', 0, 10);
 
 INSERT INTO Koordinator (nama) VALUES
